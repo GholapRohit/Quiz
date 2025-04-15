@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MindWars - Let the war begin</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="config-container">
+      <h2 class="config-title">MindWars</h2>
+      <div class="config-options">
+        <h4 class="option-title">Select Catagory</h4>
+        <div class="category-options">
+          <button class="category-opt selected">Programming</button>
+          <button class="category-opt">Geography</button>
+          <button class="category-opt">Mathematics</button>
+          <button class="category-opt">Entertainment</button>
+        </div>
+      </div>
+      <div class="config-options">
+        <h4 class="option-title">No. of questions</h4>
+        <div class="question-options">
+          <button class="question-opt selected">5</button>
+          <button class="question-opt">10</button>
+          <button class="question-opt">15</button>
+          <button class="question-opt">20</button>
+          <button class="question-opt">25</button>
+        </div>
+      </div>
+      <button class="start-quiz-btn">Start</button>
+    </div>
+
+    <div class="quiz-container">
+      <header class="quiz-header">
+        <h2 class="quiz-title">MindWars</h2>
+        <div class="quiz-timer">
+          <i class="fa-solid fa-stopwatch"></i>
+          <p class="timer">10s</p>
+        </div>
+      </header>
+      <div class="quiz-content">
+        <h1 class="quiz-question"></h1>
+        <ul class="quiz-options"></ul>
+      </div>
+      <div class="quiz-footer">
+        <p class="question-status"></p>
+        <button class="next-question-btn">
+          Next <i class="fa-solid fa-arrow-right"></i>
+        </button>
+      </div>
+    </div>
+
+    <div class="result-container">
+      <i class="fa-solid fa-graduation-cap" style="color: #fe902a"></i>
+      <h2 class="result-title">Quiz Completed</h2>
+      <p class="result-message"></p>
+      <button class="try-again-btn">Try Again</button>
+    </div>
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
