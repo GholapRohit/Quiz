@@ -1,2 +1,2 @@
 # MindWars
-A fast-paced, category-based quiz app with a timer, score tracking, and instant answer feedback.
+This quiz website is an interactive platform where users can test their knowledge across various categories. Users can select a quiz category, set the number of questions, and answer multiple-choice questions within a time limit. The site provides instant feedback on answers, tracks scores, and displays a summary of results at the end. It features a clean interface, dynamic question rendering, and a reset option to retake the quiz.
